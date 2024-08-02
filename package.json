@@ -1,0 +1,32 @@
+{
+    "name": "pwd-crypt",
+    "version": "1.0.0",
+    "description": "pwd-crypt is a lightweight Node.js library designed for seamless encryption and decryption of passwords.",
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "keywords": [
+        "Javascript",
+        "nodejs",
+        "pwd-crypt",
+        "typescript",
+        "passwords-hashing"
+    ],
+    "scripts": {
+        "build": "tsup"
+    },
+    "repository": {
+        "url": "https://github.com/azhermurad/node-pwd-crypt.git"
+    },
+    "homepage": "https://github.com/azhermurad/node-pwd-crypt.git",
+    "author": "azher ali",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^22.0.0",
+        "tsup": "^8.2.3",
+        "typescript": "^5.5.4"
+    },
+    "dependencies": {
+        "util": "^0.12.5"
+    }
+}
